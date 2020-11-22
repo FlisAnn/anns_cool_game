@@ -1,14 +1,17 @@
 import React from 'react';
-import TopHeader from './modules/TopHeader';
-import Footer from './modules/Footer';
-import GameContainer from './modules/GameContainer';
+import TopHeader from './components/TopHeader'
+import DisplayRules from './components/DisplayRules'
+import GameContainer from './components/GameContainer'
+import Footer from './components/Footer'
+
 
 function App() {
   return (
     <>
       <TopHeader/>
-      <Footer/>
+      <DisplayRules/>
       <GameContainer/>
+      <Footer/>
     </>
   )
 }
