@@ -1,14 +1,14 @@
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
-import Start from './Start';
+import TopHeader from './modules/TopHeader';
+import Footer from './modules/Footer';
+import GameContainer from './modules/GameContainer';
 
 function App() {
   return (
     <>
-      <Header/>
+      <TopHeader/>
       <Footer/>
-      <Start/>
+      <GameContainer/>
     </>
   )
 }
