@@ -1,14 +1,16 @@
 import React from 'react'
-import { Message, Icon } from 'semantic-ui-react'
+import { Message, Icon, Header } from 'semantic-ui-react'
 
 const DisplayRules = () => (
-  <Message Icon>
-    <Icon name='announcement' />
+  <Message color="teal">
       <Message.Content>
-        <Message.Header id="gamerules" >Rules of the game</Message.Header>
-        1. Rock beats scissors
-        2. Scissors beats paper
-        3. Paper beats rock
+        <Header id="gamerules" as="h2" >
+          <Icon name='announcement' size="tiny" />
+            Rules of the game
+        </Header>
+        <Message.Item>1. Rock beats scissors</Message.Item>
+        <Message.Item>2. Scissors beats paper</Message.Item>
+        <Message.Item>3. Paper beats rock</Message.Item>
       </Message.Content>
     </Message>
 

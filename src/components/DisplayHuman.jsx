@@ -8,7 +8,7 @@ import {
 const DisplayHuman = () => (
   
         <Grid.Column>
-          <Header> 
+          <Header as="h2"> 
             You
           </Header>
             <Grid.Row icon>
