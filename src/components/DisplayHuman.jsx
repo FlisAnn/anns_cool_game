@@ -8,7 +8,7 @@ import {
 const DisplayHuman = () => (
   
         <Grid.Column>
-          <Header as="h2"> 
+          <Header as="h2" color="grey"> 
             You
           </Header>
             <Grid.Row icon>
@@ -17,7 +17,7 @@ const DisplayHuman = () => (
               <Icon name='hand paper outline'size='huge' color='teal' />
             </Grid.Row>
          
-          <Header id="human">
+          <Header id="human" color="grey">
             Stone, Rock or Paper?
           </Header>
         </Grid.Column>

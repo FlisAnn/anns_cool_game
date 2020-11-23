@@ -4,10 +4,7 @@ body {
 
 .container {
   background-color: white;
-}
-
-.rulesmessage {
-  
+  margin: 40px;
 }
 
 footer {

@@ -8,7 +8,7 @@ import {
 } from "semantic-ui-react"
 
 const GameContainer = () => (
-  <Segment placeholder >
+  <Segment placeholder color="teal">
     <Grid columns={2} stackable textAlign='center'>
       <Divider vertical>VS</Divider>
 
