@@ -1,5 +1,9 @@
 body {
-  background-color: #f7c1ca;
+  background-color: #faeaed;
+}
+
+.container {
+  background-color: white;
 }
 
 .rulesmessage {

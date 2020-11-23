@@ -9,7 +9,7 @@ import { Container } from 'semantic-ui-react'
 function App() {
   return (
    
-    <Container>
+    <Container id="container">
       <TopHeader/>
       <DisplayRules/>
       <GameContainer/>
