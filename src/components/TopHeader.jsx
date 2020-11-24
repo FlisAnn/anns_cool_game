@@ -5,7 +5,7 @@ const TopHeader = () => (
   <Header as='h1' textAlign='center' color="teal">
     <Header.Content id="topheader">
       
-      Stone, Rock and paper
+      Rock, Stone &amp; Paper
     </Header.Content>
   </Header>
 )

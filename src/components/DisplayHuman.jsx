@@ -12,13 +12,13 @@ const DisplayHuman = () => (
             You
           </Header>
             <Grid.Row icon>
-              <Icon name='hand rock outline' size='huge' color='pink' />
-              <Icon name='hand scissors outline' size='huge' color='yellow' />
-              <Icon name='hand paper outline'size='huge' color='teal' />
+              <Icon name='hand rock outline' size='huge' color='pink' name="humanrock"/>
+              <Icon name='hand scissors outline' size='huge' color='yellow' name="humanscissors" />
+              <Icon name='hand paper outline'size='huge' color='teal' name="humanpaper" />
             </Grid.Row>
          
           <Header id="human" color="grey">
-            Stone, Rock or Paper?
+            Rock, Stone or Paper?
           </Header>
         </Grid.Column>
 )
