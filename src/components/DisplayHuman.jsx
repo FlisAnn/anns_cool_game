@@ -15,15 +15,15 @@ const DisplayHuman = () => (
             <Grid.Row icon>
               <Button.Group>
               <Button icon> 
-                <Icon name='hand rock outline' size='huge' color='pink' />
+                <Icon name='hand rock outline' size='huge' color='pink' id="humanRock"/>
               </Button> 
               <Button.Or />
               <Button icon>
-                <Icon name='hand scissors outline' size='huge' color='yellow' />
+                <Icon name='hand scissors outline' size='huge' color='yellow' id="humanScissors" />
               </Button>
               <Button.Or />
               <Button icon>
-                <Icon name='hand paper outline' size='huge' color='teal' />
+                <Icon name='hand paper outline' size='huge' color='teal' id="humanPaper"/>
               </Button>
               </Button.Group>
             </Grid.Row>
