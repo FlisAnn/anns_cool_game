@@ -3,6 +3,7 @@ import {
   Grid,
   Header,
   Icon,
+  Button
 } from 'semantic-ui-react'
 
 const DisplayHuman = () => (
@@ -12,9 +13,19 @@ const DisplayHuman = () => (
             You
           </Header>
             <Grid.Row icon>
-              <Icon name='hand rock outline' size='huge' color='pink' name="humanrock"/>
-              <Icon name='hand scissors outline' size='huge' color='yellow' name="humanscissors" />
-              <Icon name='hand paper outline'size='huge' color='teal' name="humanpaper" />
+              <Button.Group>
+              <Button icon> 
+                <Icon name='hand rock outline' size='huge' color='pink' />
+              </Button> 
+              <Button.Or />
+              <Button icon>
+                <Icon name='hand scissors outline' size='huge' color='yellow' />
+              </Button>
+              <Button.Or />
+              <Button icon>
+                <Icon name='hand paper outline' size='huge' color='teal' />
+              </Button>
+              </Button.Group>
             </Grid.Row>
          
           <Header id="human" color="grey">
