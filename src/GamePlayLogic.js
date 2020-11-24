@@ -1,6 +1,6 @@
 
-let humanChoice
-let computerChoice
+// let humanChoice
+// let computerChoice
 
 
 
