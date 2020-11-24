@@ -31,7 +31,7 @@ const DisplayHuman = () => (
     <Header id="computer" color="grey">
       Rock, Stone or Paper?
       </Header>
-  </Grid.Column>
+    </Grid.Column>
 )
 
 export default DisplayHuman
