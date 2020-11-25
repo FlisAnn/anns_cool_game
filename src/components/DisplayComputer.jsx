@@ -10,7 +10,7 @@ const DisplayHuman = () => (
   
   <Grid.Column>
   <Header as="h2" color="grey"> 
-    You
+    Computer
   </Header>
     <Grid.Row icon>
       <Button.Group>
@@ -19,17 +19,17 @@ const DisplayHuman = () => (
       </Button> 
       <Button.Or />
       <Button icon>
-        <Icon name='hand scissors outline' size='huge' color='yellow' id="computerScissors" />
+        <Icon name='hand paper outline' size='huge' color='yellow' id="computerPaper" />
       </Button>
       <Button.Or />
       <Button icon>
-        <Icon name='hand paper outline' size='huge' color='teal' id="computerPaper" />
+        <Icon name='hand scissors outline' size='huge' color='teal' id="computerScissors" />
       </Button>
       </Button.Group>
     </Grid.Row>
          
     <Header id="computer" color="grey">
-      Rock, Stone or Paper?
+    Rock, Paper or Scissors?
       </Header>
     </Grid.Column>
 )

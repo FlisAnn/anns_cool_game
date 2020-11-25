@@ -19,17 +19,17 @@ const DisplayHuman = () => (
               </Button> 
               <Button.Or />
               <Button icon>
-                <Icon name='hand scissors outline' size='huge' color='yellow' id="humanScissors" />
+                <Icon name='hand paper outline' size='huge' color='yellow' id="humanPaper" />
               </Button>
               <Button.Or />
               <Button icon>
-                <Icon name='hand paper outline' size='huge' color='teal' id="humanPaper"/>
+                <Icon name='hand scissors outline' size='huge' color='teal' id="humanScissors"/>
               </Button>
               </Button.Group>
             </Grid.Row>
          
           <Header id="human" color="grey">
-            Rock, Stone or Paper?
+            Rock, Paper or Scissors?
           </Header>
         </Grid.Column>
 )
