@@ -20,10 +20,10 @@ import DisplayComputerWinner from './components/DisplayComputerWinner';
 //     const humanChoice = e.target.id;
 //     const components = choice[Math.floor(Math.random()*3)]
 
-//   }
+//   }}
 
 
-}
+//
 
 
 
