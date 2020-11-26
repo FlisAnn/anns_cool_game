@@ -9,6 +9,23 @@ import DisplayTie from './components/DisplayTie'
 import DisplayComputerWinner from './components/DisplayComputerWinner';
 
 
+// class App extends Component {
+//   state = {
+//     message: null,
+//     humanChoice: [],
+//     computerChoice: []
+//   };
+
+//   playThis = (e) => {
+//     const humanChoice = e.target.id;
+//     const components = choice[Math.floor(Math.random()*3)]
+
+//   }
+
+
+}
+
+
 
 function App() {
   return (
