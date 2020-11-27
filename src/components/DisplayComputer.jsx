@@ -6,7 +6,7 @@ import {
   Button
 } from 'semantic-ui-react'
 
-const DisplayHuman = () => (
+const DisplayComputer = () => (
   
   <Grid.Column>
   <Header as="h2" color="grey"> 
@@ -34,4 +34,4 @@ const DisplayHuman = () => (
     </Grid.Column>
 )
 
-export default DisplayHuman
+export default DisplayComputer
