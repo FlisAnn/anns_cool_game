@@ -14,15 +14,15 @@ const DisplayHuman = () => (
           </Header>
             <Grid.Row icon>
               <Button.Group>
-              <Button icon onClick={this.playThis} > 
+              <Button icon> 
                 <Icon name='hand rock outline' size='huge' color='pink' id="humanRock"/>
               </Button> 
               <Button.Or />
-              <Button icon onClick={this.playThis}>
+              <Button icon>
                 <Icon name='hand paper outline' size='huge' color='yellow' id="humanPaper" />
               </Button>
               <Button.Or />
-              <Button icon onClick={this.playThis}>
+              <Button icon>
                 <Icon name='hand scissors outline' size='huge' color='teal' id="humanScissors"/>
               </Button>
               </Button.Group>
